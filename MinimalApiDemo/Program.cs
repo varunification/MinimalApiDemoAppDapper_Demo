@@ -19,6 +19,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.ConfigureApi();// costom extention method
+app.ConfigureApi();// custom extention method
 app.Run();
 
